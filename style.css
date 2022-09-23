@@ -1,3 +1,44 @@
-body {
-    background-color: grey;
+* {
+    background-color: darkgrey;
+}
+
+:root {
+    --heading: #ca07c0c2;
+
+}
+
+h1 {
+    font-size: 500%;
+    color: var(--heading);
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+#short-description {
+    text-align: center;
+    
+
+}
+
+h2 {
+    font-size: 250%;
+    color: var(--heading);
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+}
+
+h3 {
+    font-size: 100%;
+    color: var(--heading);
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap:wrap;
 }
