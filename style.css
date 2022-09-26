@@ -39,12 +39,12 @@ h2 {
 }
 
 #flexbox {
-    font-size: 250%;
+    /*font-size: 250%;
     display:flex;
     justify-content: space-evenly;
     flex-direction: column;
     flex-wrap:wrap;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);*/
 
 }
 
@@ -56,3 +56,13 @@ h3 {
     flex-direction: column;
     flex-wrap:wrap;*/
 }
+section, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section{
+    display: flex;
+    justify-content: baseline;
+
+  }
